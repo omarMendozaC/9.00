@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>PSFree-Lapse Exploit For PS4 9.00</title>
+        <style>
+            @font-face {
+                font-family: 'logging';
+                src: url('fonts/LiberationMono-Regular.ttf');
+            }
+            body {
+                font-family: 'logging';
+                background-color: #f0f0f0; /* Color de fondo */
+                background-image: url('Sony.PNG'); /* Imagen de fondo */
+                background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+                background-repeat: no-repeat; /* No repetir la imagen */
+                color: #333; /* Color del texto */
+            }
+            #console {
+                font-family: 'logging';
+            }
+            .footer {
+                margin-top: 20px;
+                font-size: 0.9em; /* Tamaño de fuente más pequeño */
+            }
+        </style>
+        <script>
+        if (window.applicationCache.status=='0')
+        {
+          window.location.replace("cache.html");
+        }
+        </script>
+    </head>
+    <body>
+        PS4 9.00 Exploit Chain
+        <br>
+        <br>
+        See <a href='./about.html' data-jslicense='1'>JavaScript license information</a> for the
+        source code and license.<br>
+        <pre id='console'></pre>
+        
+        <div class="footer">
+            &copy; 2025 Elelectrogames<br>
+            O.M.C
+        </div>
+    </body>
+    <script type='module' src='./alert.mjs'></script>
+</html>
